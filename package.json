@@ -1,10 +1,10 @@
 {
 
-  "name": "Example",
+  "name": "HordesVerifBot",
 
-  "description": "Example",
+  "description": "Faction Verification Bot for Hordesio",
 
-  "version": "0.0.0",
+  "version": "0.0.1",
 
   "main": "bot.js",
 
