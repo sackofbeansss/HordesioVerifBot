@@ -5,4 +5,4 @@
  current commands:
  ;verify
  ;help 
- ;ping*/
+ ;ping */
