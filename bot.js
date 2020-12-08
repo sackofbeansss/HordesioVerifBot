@@ -17,10 +17,6 @@ client.on('message', message => {
     if (message.content === 'ping') {
 
        message.reply('pong');
-     client.user.setActivity("here", {
-  type: "VERIFY",
-  url: "https://hordes.io"
-});
 
        }
 
