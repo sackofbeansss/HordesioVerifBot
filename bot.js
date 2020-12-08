@@ -22,6 +22,16 @@ client.on('message', message => {
 
 });
 
+
+client.on('message', message => {
+
+    if (message.content === '!help') {
+
+       message.reply('u are noob nomegalul xd');
+
+       }
+
+});
  
 
 // THIS  MUST  BE  THIS  WAY
