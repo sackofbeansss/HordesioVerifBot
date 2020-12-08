@@ -19,32 +19,18 @@ client.on('message', message => {
        message.reply('pong');
 
        }
-
-});
-
-
-client.on('message', message => {
-
+ 
     if (message.content === ';help') {
 
        message.reply(';help, ;ping, ;verify, ;version');
 
        }
 
-});
- client.on('message', message => {
-
     if (message.content === ';verify') {
 
        message.reply('[insert message embed]');
 
        }
-
-});
-
-
-});
- client.on('message', message => {
 
     if (message.content === ';version') {
 
