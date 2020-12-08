@@ -27,7 +27,7 @@ client.on('message', message => {
 
     if (message.content === ';help') {
 
-       message.reply(';help, ;ping, ;verify');
+       message.reply(';help, ;ping, ;verify, ;version');
 
        }
 
@@ -37,6 +37,18 @@ client.on('message', message => {
     if (message.content === ';verify') {
 
        message.reply('[insert message embed]');
+
+       }
+
+});
+
+
+});
+ client.on('message', message => {
+
+    if (message.content === ';version') {
+
+       message.reply('version 0.0.1');
 
        }
 
