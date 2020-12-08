@@ -14,7 +14,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
 
-    if (message.content === 'ping') {
+    if (message.content === ';ping') {
 
        message.reply('pong');
 
@@ -25,14 +25,22 @@ client.on('message', message => {
 
 client.on('message', message => {
 
-    if (message.content === '!help') {
+    if (message.content === ';help') {
 
-       message.reply('u are noob nomegalul xd');
+       message.reply(';help, ;ping, ;verify');
 
        }
 
 });
- 
+ client.on('message', message => {
+
+    if (message.content === ';verify') {
+
+       message.reply('[insert message embed]');
+
+       }
+
+});
 
 // THIS  MUST  BE  THIS  WAY
 
