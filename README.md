@@ -6,3 +6,4 @@ current commands:
 ;verify
 ;help 
 ;ping 
+# PROJECT IS ON HOLD WHILE WE SEARCH FOR HOSTING SERVICE :)
